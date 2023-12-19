@@ -1,0 +1,178 @@
+.container {
+  display: flex;
+  margin: auto;
+  width: 700px;
+  height: 500px;
+  margin-top: 5%;
+  border-radius: 30px;
+  background-color: white;
+  box-shadow: 5px 5px 10px 4px rgba(85, 96, 255, 0.151);
+}
+
+.container .result,
+.container .summary {
+  width: 350px;
+}
+.container .result {
+  background: linear-gradient(360deg, hsl(241, 81%, 54%), hsl(252, 100%, 67%));
+
+  border-radius: 30px;
+  text-align: center;
+  padding: 20px 20px 10px 20px;
+}
+
+.container .result > h3 {
+  color: rgba(252, 246, 246, 0.856);
+  font-family: sans-serif;
+  margin-bottom: 30px;
+}
+
+.container .result .cer {
+  background: linear-gradient(
+    190deg,
+    hsla(256, 72%, 46%, 1),
+    hsla(241, 72%, 46%, 0)
+  );
+  margin-left: 42px;
+  margin-right: 42px;
+  margin-bottom: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 50%;
+}
+
+.container .result .cer > h1 {
+  font-weight: bold;
+  color: white;
+  font-family: sans-serif;
+  font-size: 50px;
+}
+.container .result .cer > p {
+  font-family: sans-serif;
+  color: rgba(248, 242, 242, 0.801);
+  font-weight: bolder;
+  margin-top: -22px;
+}
+.container .result > h1 {
+  font-weight: bold;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container .result > p {
+  color: rgb(255, 249, 249);
+  font-family: "Hanken Grotesk", sans-serif;
+  font-family: "Inter", sans-serif;
+  font-family: "Lexend Deca", sans-serif;
+  line-height: 1.8;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.container .summary {
+  background-color: white;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.container .summary > h3 {
+  font-family: sans-serif;
+  color: rgb(95, 93, 93);
+  margin-bottom: 20px;
+  margin-top: 25px;
+}
+
+.container .summary .box-1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(255, 0, 0, 0.103);
+  border-radius: 20px;
+  margin-bottom: 20px;
+  font-family: sans-serif;
+  padding: 10px 0px 10px 0px;
+}
+
+.container .summary .box-2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(251, 255, 0, 0.164);
+  border-radius: 20px;
+  margin-bottom: 20px;
+  font-family: sans-serif;
+  padding: 10px 0px 10px 0px;
+}
+
+.container .summary .box-3 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(0, 255, 13, 0.123);
+  border-radius: 20px;
+  margin-bottom: 20px;
+  font-family: sans-serif;
+  padding: 10px 0px 10px 0px;
+}
+
+.container .summary .box-4 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(42, 50, 165, 0.226);
+  border-radius: 20px;
+  margin-bottom: 20px;
+  font-family: sans-serif;
+  padding: 10px 0px 10px 0px;
+}
+
+.container .summary p:nth-of-type(2) {
+  font-weight: bold;
+}
+
+.container .summary p:nth-of-type(2) span {
+  color: grey;
+  font-weight: 600;
+}
+
+.container .summary .box-1 p:nth-of-type(1) {
+  color: red;
+}
+
+.container .summary .box-2 p:nth-of-type(1) {
+  color: yellow;
+}
+
+.container .summary .box-3 p:nth-of-type(1) {
+  color: green;
+}
+
+.container .summary .box-4 p:nth-of-type(1) {
+  color: blue;
+}
+
+.container .summary input {
+  display: block;
+  margin: auto;
+  color: white;
+  font-family: sans-serif;
+  background: linear-gradient(
+    20deg,
+    rgb(69, 2, 255),
+    hsla(241, 82%, 42%, 0.582)
+  );
+  border-style: none;
+  border-radius: 40px;
+  padding: 16px 80px;
+}
+
+.container .summary input:hover {
+  background: linear-gradient(
+    50deg,
+    rgba(96, 62, 189, 0.884),
+    hsl(241, 88%, 67%)
+  );
+  box-shadow: 5px 5px 10px 2px rgba(35, 47, 207, 0.452);
+}
